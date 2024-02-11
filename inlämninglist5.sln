@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inlämninglist5", "inlämninglist5\inlämninglist5.csproj", "{C2B9305E-FC0B-4860-8FB4-883D09BF3C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B9305E-FC0B-4860-8FB4-883D09BF3C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B9305E-FC0B-4860-8FB4-883D09BF3C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B9305E-FC0B-4860-8FB4-883D09BF3C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B9305E-FC0B-4860-8FB4-883D09BF3C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69BB13D7-C1BA-45E7-919B-8CE6848CB390}
+	EndGlobalSection
+EndGlobal
