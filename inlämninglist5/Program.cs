@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.SymbolStore;
@@ -29,19 +29,20 @@ namespace inlämninglist5
             }
             sum = sum / (gånger - 2);
             Console.WriteLine("Medel är "+sum);
-            if ((månadslön.Count) % 2 == 0)
+            if ((månadslön.Count) % 2 ==0)
             {
                 månadslön.RemoveRange(0, (gånger - 2) / 2);
                 månadslön.RemoveRange((månadslön.Count-1) / 2+1, månadslön.Count - 2);
                 månadslön.Sort();
-                Console.WriteLine(månadslön[0] + " " + månadslön[1]);
+
+                Console.WriteLine("Medianen är "+(månadslön[0] + månadslön[1])/2);
             }
             else
             {
                 månadslön.RemoveRange(0, (gånger - 2) / 2);
                 månadslön.RemoveRange((månadslön.Count - 1) / 2, månadslön.Count - 2);
                 månadslön.Sort();
-                Console.WriteLine(månadslön[0]);
+                Console.WriteLine("Medianen är "+månadslön[0]);
             }
         }
     }
